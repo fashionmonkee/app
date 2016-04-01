@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<skus>
+  <sku>
+    <skuCode>AS3008A</skuCode>
+    <pimcategory>Vacuum:Upright</pimcategory>
+    <pimCategoryCode>NA_US_Eureka_Vacuum_Upright; NA_Canada_Eureka_Vauum_Upright</pimCategoryCode>
+    <BusinessLine></BusinessLine>
+    <LifeCycleStatus>Market Launch</LifeCycleStatus>
+    <BrandVisibilty>0</BrandVisibilty>
+    <WarrantyCode>12345097</WarrantyCode>
+    <ConsumerVisibility>Published</ConsumerVisibility>
+    <PriceBasket>1</PriceBasket>
+    <onlineOnly></onlineOnly>
+    <ratings>4.3</ratings>
+    <shippingWeight>17 lbs.</shippingWeight>
+    <weight>14 lbs.</weight>
+    <languages>
+      <language name="EN_US">
+        <displayName>AirSpeed® EXACT Reach </displayName>
+        <description>The Eureka Airspeed® EXACT Reach features the Smooth-Glide® Pivoting Base making it easier to push over all carpet types. Also included are a washable dust cup filter and a high efficiency allergen filter that reduces dust and allergens. </description>
+        <longDescription></longDescription>
+        <Color>Black/Blue</Color>
+        <keywords></keywords>
+        <awards>
+          <award>Good HouseKeeping 2015</award>
+        </awards>
+        <promotions></promotions>
+      </language>
+      <language name="EN_CA">
+        <displayName>AirSpeed® EXACT Reach </displayName>
+        <description>The Eureka Airspeed® EXACT Reach features the Smooth-Glide® Pivoting Base making it easier to push over all carpet types. Also included are a washable dust cup filter and a high efficiency allergen filter that reduces dust and allergens. </description>
+        <longDescription></longDescription>
+        <Color>Black/Blue</Color>
+        <keywords></keywords>
+        <awards></awards>
+        <promotions></promotions>
+      </language>
+      <language name="FR_CA">
+        <displayName>AirSpeed® EXACT Reach </displayName>
+        <description>Le Eureka AirSpeed® EXACT Reach comprend le Smooth- Glide MD support pivotant qui rend plus facile à pousser sur tous les types de tapis . Sont également inclus un filtre à poussière lavable et un filtre allergène haute efficacité qui réduit la poussière et les allergènes</description>
+        <longDescription></longDescription>
+        <Color>Noir/Bleu</Color>
+        <keywords></keywords>
+        <awards></awards>
+        <promotions></promotions>
+      </language>
+    </languages>
+    <images>
+      <image>
+        <imgLanguages>
+          <imgLanguage name="EN_US">
+            <largeImageUrl>www.medias.electrolux.com/.../as3008A_HOV.png</largeImageUrl>
+            <mediumImageUrl>www.medias.electrolux.com/.../as3008A_HOV_Med.png</mediumImageUrl>
+            <smallImageUrl>www.medias.electrolux.com/.../as3008A_HOV_small.png</smallImageUrl>
+            <thumbnailImageUrl>www.medias.electrolux.com/.../as3008A_HOV_thumb.png</thumbnailImageUrl>
+            <extraSmallImageUrl>www.medias.electrolux.com/.../as3008A_HOV_exsmall.png</extraSmallImageUrl>
+          </imgLanguage>
+          <imgLanguage name="EN_CA">
+            <largeImageUrl>www.medias.electrolux.com/.../as3008A_HOV.png</largeImageUrl>
+            <mediumImageUrl>www.medias.electrolux.com/.../as3008A_HOV_Med.png</mediumImageUrl>
+            <smallImageUrl>www.medias.electrolux.com/.../as3008A_HOV_small.png</smallImageUrl>
+            <thumbnailImageUrl>www.medias.electrolux.com/.../as3008A_HOV_thumb.png</thumbnailImageUrl>
+            <extraSmallImageUrl>www.medias.electrolux.com/.../as3008A_HOV_exsmall.png</extraSmallImageUrl>
+          </imgLanguage>
+          <imgLanguage name="FR_CA">
+            <largeImageUrl>www.medias.electrolux.com/.../as3008A_HOV.png</largeImageUrl>
+            <mediumImageUrl>www.medias.electrolux.com/.../as3008A_HOV_Med.png</mediumImageUrl>
+            <smallImageUrl>www.medias.electrolux.com/.../as3008A_HOV_small.png</smallImageUrl>
+            <thumbnailImageUrl>www.medias.electrolux.com/.../as3008A_HOV_thumb.png</thumbnailImageUrl>
+            <extraSmallImageUrl>www.medias.electrolux.com/.../as3008A_HOV_exsmall.png</extraSmallImageUrl>
+          </imgLanguage>
+        </imgLanguages>
+        <imgLanguages>
+          <imgLanguage name="EN_US=">
+            <largeImageUrl>www.medias.electrolux.com/.../as3008A_3/4Gallery.png</largeImageUrl>
+            <mediumImageUrl>www.medias.electrolux.com/.../as3008A_3/4Gallery_Med.png</mediumImageUrl>
+            <smallImageUrl>www.medias.electrolux.com/.../as3008A_3/4Gallery_small.png</smallImageUrl>
+            <thumbnailImageUrl>www.medias.electrolux.com/.../as3008A_3/4Gallery_thumb.png</thumbnailImageUrl>
+            <extraSmallImageUrl>www.medias.electrolux.com/.../as3008A_HOV_exsmall.png</extraSmallImageUrl>
+          </imgLanguage>
+          <imgLanguage name="EN_CA">
+            <largeImageUrl>www.medias.electrolux.com/.../as3008A_3/4Gallery.png</largeImageUrl>
+            <mediumImageUrl>www.medias.electrolux.com/.../as3008A_3/4Gallery_Med.png</mediumImageUrl>
+            <smallImageUrl>www.medias.electrolux.com/.../as3008A_3/4Gallery_small.png</smallImageUrl>
+            <thumbnailImageUrl>www.medias.electrolux.com/.../as3008A_3/4Gallery_thumb.png</thumbnailImageUrl>
+            <extraSmallImageUrl>www.medias.electrolux.com/.../as3008A_HOV_exsmall.png</extraSmallImageUrl>
+          </imgLanguage>
+          <imgLanguage name="FR_CA">
+            <largeImageUrl>www.medias.electrolux.com/.../as3008A_3/4Gallery.png</largeImageUrl>
+            <mediumImageUrl>www.medias.electrolux.com/.../as3008A_3/4Gallery_Med.png</mediumImageUrl>
+            <smallImageUrl>www.medias.electrolux.com/.../as3008A_3/4Gallery_small.png</smallImageUrl>
+            <thumbnailImageUrl>www.medias.electrolux.com/.../as3008A_3/4Gallery_thumb.png</thumbnailImageUrl>
+            <extraSmallImageUrl>www.medias.electrolux.com/.../as3008A_HOV_exsmall.png</extraSmallImageUrl>
+          </imgLanguage>
+        </imgLanguages>
+      </image>
+    </images>
+    <videos>
+      <video>
+        <videoLanguages>
+          <videoLanguage name="EN_US=">
+            <videoURL>www.media.electrolux.com.../as308A_en_video.mp4</videoURL>
+          </videoLanguage>
+          <videoLanguage name="EN_CA">
+            <videoURL>www.media.electrolux.com.../as308A_en_video.mp4</videoURL>
+          </videoLanguage>
+          <videoLanguage name="FR_CA">
+            <videoURL>www.media.electrolux.com.../as308A_fr_video.mp4</videoURL>
+          </videoLanguage>
+        </videoLanguages>
+      </video>
+    </videos>
+    <features>
+      <feature>
+        <featureLanguages>
+          <featureLanguage name="EN_US">
+            <featureName>AirSpeed Technology</featureName>
+            <featureValue>Unlike most other vacuums, AirSpeed® EXACT Reach is engineered with an efficient air path with limited bends and turns.  This allows more air to pass through the vacuum. The direct air path from floor to cup decreases the distance for dirt to travel, which increases the amount of airflow for powerful suction.  For attachment cleaning, simply set the suction control dial to "tools.“</featureValue>
+            <imageUrl>www.featureasset.com</imageUrl>
+            <videoUrl>www.featurevideo_en.com</videoUrl>
+          </featureLanguage>
+          <featureLanguage name="EN_CA">
+            <featureName>AirSpeed Technology</featureName>
+            <featureValue>Unlike most other vacuums, AirSpeed® EXACT Reach is engineered with an efficient air path with limited bends and turns.  This allows more air to pass through the vacuum. The direct air path from floor to cup decreases the distance for dirt to travel, which increases the amount of airflow for powerful suction.  For attachment cleaning, simply set the suction control dial to "tools.“</featureValue>
+            <imageUrl>www.featureasset.com</imageUrl>
+            <videoUrl>www.featurevideo_en.com</videoUrl>
+          </featureLanguage>
+          <featureLanguage name="FR_CA">
+            <featureName>AirSpeed Technology</featureName>
+            <featureValue>Contrairement à la plupart des autres aspirateurs , AirSpeed® EXACT mât est conçue avec un chemin d'air efficace avec des virages et détours limitées . Cela permet à plus d'air de passer à travers le vide . Le chemin dans l'air , du sol à la tasse diminue la distance pour la saleté de voyager, ce qui augmente la quantité d'air pour l'aspiration puissante . Pour le nettoyage de fixation , il suffit de régler la molette de contrôle de l'aspiration à " outils. "</featureValue>
+            <imageUrl>www.featureasset.com</imageUrl>
+            <videoUrl>www.featurevideo_fr.com</videoUrl>
+          </featureLanguage>
+        </featureLanguages>
+        <sequence>1</sequence>
+      </feature>
+      <feature>
+        <featureLanguages>
+          <featureLanguage name="EN_US">
+            <featureName>Multi-Surface Cleaning</featureName>
+            <featureValue>Deep clean the carpets in your home with the AirSpeed® EXACT Reach. The floor nozzle features a 5-setting height adjustment switch combined with Eureka’s patented Smooth-Glide® Pivoting Base making it easy to push over all carpet types. Deep clean stairs, furniture and upholstered furniture with ease with the 10 foot deluxe stretch hose, on-board stair &amp; upholstery turbo, crevice tool, and dusting brush. 
+ </featureValue>
+            <imageUrl>www.featureasset2.com</imageUrl>
+            <videoUrl>www.featurevideo2_en.com</videoUrl>
+          </featureLanguage>
+          <featureLanguage name="EN_CA">
+            <featureName>Multi-Surface Cleaning</featureName>
+            <featureValue>Deep clean the carpets in your home with the AirSpeed® EXACT Reach. The floor nozzle features a 5-setting height adjustment switch combined with Eureka’s patented Smooth-Glide® Pivoting Base making it easy to push over all carpet types. Deep clean stairs, furniture and upholstered furniture with ease with the 10 foot deluxe stretch hose, on-board stair &amp; upholstery turbo, crevice tool, and dusting brush. 
+ </featureValue>
+            <imageUrl>www.featureasset2.com</imageUrl>
+            <videoUrl>www.featurevideo2_en.com</videoUrl>
+          </featureLanguage>
+          <featureLanguage name="FR_CA">
+            <featureName>Nettoyage Multi-Surface</featureName>
+            <featureValue>Nettoyer en profondeur les tapis dans votre maison avec le AirSpeed® Atteindre EXACT . La buse de -chaussée dispose d'un commutateur de réglage de la hauteur 5 - cadre combiné avec brevetée Smooth- Glide MD support pivotant de Eureka rendant facile à pousser sur tous les types de tapis . Escaliers nettoyer en profondeur , les meubles et les meubles rembourrés avec aisance avec le 10 pieds extensible de luxe flexible , à bord escalier &amp; sellerie turbo , suceur plat et brosse à épousseter .</featureValue>
+            <imageUrl>www.featureasset2.com</imageUrl>
+            <videoUrl>www.featurevideo2_fr.com</videoUrl>
+          </featureLanguage>
+        </featureLanguages>
+        <sequence>3</sequence>
+      </feature>
+    </features>
+    <attributes>
+      <attribute name="fc_Brushrollclean">
+        <attributeLanguages>
+          <attributeLanguage name="EN_US">
+            <attributeArea>Floor Care</attributeArea>
+            <attributeName>Brushroll Clean</attributeName>
+            <attributeValue>No</attributeValue>
+          </attributeLanguage>
+          <attributeLanguage name="EN_CA">
+            <attributeArea>Floor Care</attributeArea>
+            <attributeName>Brushroll Clean</attributeName>
+            <attributeValue>No</attributeValue>
+          </attributeLanguage>
+          <attributeLanguage name="FR_CA">
+            <attributeArea>entretien des sols</attributeArea>
+            <attributeName>Brushroll Clean</attributeName>
+            <attributeValue>Non</attributeValue>
+          </attributeLanguage>
+        </attributeLanguages>
+        <sequence>1</sequence>
+      </attribute>
+      <attribute name="fc_binsize">
+        <attributeLanguages>
+          <attributeLanguage name="EN_US">
+            <attributeArea>Cleaning</attributeArea>
+            <attributeName>Bin Volume</attributeName>
+            <attributeValue>.5 Gallons</attributeValue>
+          </attributeLanguage>
+          <attributeLanguage name="EN_CA">
+            <attributeArea>Cleaning</attributeArea>
+            <attributeName>Bin Volume</attributeName>
+            <attributeValue>1.9 liters</attributeValue>
+          </attributeLanguage>
+          <attributeLanguage name="FR_CA">
+            <attributeArea>Nettoyage</attributeArea>
+            <attributeName>Bin Volume</attributeName>
+            <attributeValue>1.9 liters</attributeValue>
+          </attributeLanguage>
+        </attributeLanguages>
+        <sequence>2</sequence>
+      </attribute>
+    </attributes>
+    <upSellSkus>
+      <upSellSku>SKu123</upSellSku>
+      <upSellSku>SKU345</upSellSku>
+    </upSellSkus>
+    <relatedAccessories>
+      <relatedAccessory>bag123</relatedAccessory>
+      <relatedAccessory>belt234</relatedAccessory>
+      <relatedAccessory>filter3</relatedAccessory>
+    </relatedAccessories>
+    <relatedSkus>
+      <relatedSku>sku112</relatedSku>
+    </relatedSkus>
+  </sku>
+</skus>
