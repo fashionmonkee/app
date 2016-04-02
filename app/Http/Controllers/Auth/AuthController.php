@@ -60,7 +60,7 @@ use AuthenticatesAndRegistersUsers,
                 $login_info['token'] = $token;
                 return response()->json($login_info);
             } else
-                return response()->json('Invalid Credentials', 401);
+                return response()->json('Incorrect Password', 401);
         }else {
             return response()->json('Your not fashionMonkee user.Please Register!', 401);
         }
