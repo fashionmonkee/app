@@ -20,6 +20,8 @@ class Address extends Model
             'phone',
             'mobile',
             'pin',
+            'latitude',
+            'longitude',
             'created_at',
             'updated_at'
      ];
@@ -35,7 +37,9 @@ class Address extends Model
             "country" => $request["country"],
             "pin" => $request["pin"],
             "mobile" => $request["mobile"],
-            "phone" => $request["phone"]
+            "phone" => $request["phone"],
+            "latitude" =>$request["latitude"],
+            "longitude" =>$request["longitude"]
         );
         if($id != null){
              DB::table('address')->where('id', $id)->update($addressData);

@@ -79,7 +79,7 @@ use AuthenticatesAndRegistersUsers,
                     "email" => $request->get("email"),
                     "password" => bcrypt($request->get("password")),
                     "status" => "1",
-                    "role_id" => "2",
+                    "role_id" => $request->get("role_id"),
                     "city" =>$request->get("city")
                 );
                 //Users table entry

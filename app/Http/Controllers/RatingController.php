@@ -33,7 +33,7 @@ class RatingController extends Controller
                     "user_id" => $request->get("user_id")
                 );
         $status_check = Ratings::where('shop_id', '=', $request->get("shop_id"))
-                        ->where('shop_id', '=', $request->get("user_id"))
+                        ->where('user_id', '=', $request->get("user_id"))
                         ->first();
                         if(sizeof($status_check) > 0){
                             DB::table('ratings')->where('id',  $status_check['id'])->update($data);
