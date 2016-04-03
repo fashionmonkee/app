@@ -60,7 +60,7 @@ use AuthenticatesAndRegistersUsers,
                 $login_info['token'] = $token;
                 return response()->json($login_info);
             } else
-                return response()->json('Invalid Credentials', 401);
+                return response()->json('Incorrect Password', 401);
         }else {
             return response()->json('Your not fashionMonkee user.Please Register!', 401);
         }
@@ -79,7 +79,7 @@ use AuthenticatesAndRegistersUsers,
                     "email" => $request->get("email"),
                     "password" => bcrypt($request->get("password")),
                     "status" => "1",
-                    "role_id" => "2",
+                    "role_id" => $request->get("role_id"),
                     "city" =>$request->get("city")
                 );
                 //Users table entry
