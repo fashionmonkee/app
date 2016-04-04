@@ -28,6 +28,8 @@ class Address extends Model
 
      public static function saveAddress($request,$id=null)
     {
+        log::info($request["address1"]);
+        log::info($request["longitude"]);
         $addressData = array(
             "address1" => $request["address1"],
             "address2" => $request["address2"],
@@ -41,6 +43,7 @@ class Address extends Model
             "latitude" =>$request["latitude"],
             "longitude" =>$request["longitude"]
         );
+        log::info($addressData);
         if($id != null){
              DB::table('address')->where('id', $id)->update($addressData);
         }else{
