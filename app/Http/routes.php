@@ -5,6 +5,8 @@ Route::get('mainCategory/{id?}', 'CategoryController@getMainCategory');
 Route::get('subCategory/{id?}', 'CategoryController@getSubCategory');
 Route::get('areas/{id?}', 'AreaController@getAreas');
 Route::get('shops/{id?}', 'ShopController@getShops');
+
+Route::get('cities/{id?}', 'CityController@getCities');
 Route::get('reviews', 'ReviewController@getReviews');
 Route::get('ratings', 'RatingController@getRatings');
 Route::get('users/{id?}', 'UserController@getUsers');
