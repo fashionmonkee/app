@@ -1,5 +1,8 @@
 <?php
-
+ Route::get('/', function()
+  {
+        return View::make('landing_page/index');
+  });
 
 Route::get('mainCategory/{id?}', 'CategoryController@getMainCategory');
 Route::get('subCategory/{id?}', 'CategoryController@getSubCategory');

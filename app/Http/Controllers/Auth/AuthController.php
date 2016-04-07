@@ -106,7 +106,7 @@ use AuthenticatesAndRegistersUsers,
                 }
 
             } else {
-                return response()->json("You are already Registered user");
+                return response()->json("You are already Registered user", 401);
             }
     }
 

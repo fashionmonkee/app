@@ -12,7 +12,7 @@ body a{
 }
 /*-----start-header----*/
 .header{
-	background:#EE6E73;
+	background:#6595F9;
 }
 
 .logo{
@@ -549,7 +549,7 @@ span.second{
 }
 /*-----*/
 .show-reel{
-	background:#EE6E73;
+	background:#6595F9;
 	margin:2em 0 0;
 }
 .show-reel h5 span{
@@ -582,7 +582,7 @@ span.second{
 	top: 0px;
 	width: 100%;
 	min-height: 255px;
-	background: #EE6E73;
+	background: #6595F9;
 	padding: 2em 1em;
 }
 .team-member-info:hover label.team-member-caption{
@@ -648,7 +648,7 @@ span.second{
 	-moz-border-radius:30em;
 	-o-border-radius:30em;
 	-ms-border-radius:30em;
-	border:3px solid #EE6E73;
+	border:3px solid #6595F9;
 }
 .quit-people{
 	margin-bottom:1em;
@@ -668,7 +668,7 @@ span.second{
 /*--- //team ---*/
 /*---- featured -----*/
 .featured{
-	background:#EE6E73;
+	background:#6595F9;
 	padding:2em 0 10em;
 }
 .featured h3{
@@ -750,7 +750,7 @@ span.second{
 	background-position: 0px -171px;
 }
 .getintouch {
-	border-bottom: 10px solid #EE6E73;
+	border-bottom: 10px solid #6595F9;
 	padding: 2em 0 0 0;
 }
 /*--- //getintouch -----*/
@@ -1290,7 +1290,7 @@ p.copy a:hover{
 	}
 	.header-section {
 		padding: 0 0 2em 0;
-		background:#EE6E73;
+		background:#6595F9;
 	}
 	.slide-text ul{
 		display:none;

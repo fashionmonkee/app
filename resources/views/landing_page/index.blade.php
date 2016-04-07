@@ -2,13 +2,13 @@
 <html>
 	<head>
 		<title>Fashion Monkee | Home </title>
-		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-		<link rel="shortcut icon" href="images/fav.png" />	
+		<link href="landing_page/css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<link rel="shortcut icon" href="landing_page/images/fav.png" />	
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery.min.js"></script>
+		<script src="landing_page/js/jquery.min.js"></script>
 		 
-		<script type="text/javascript" src="js/move-top.js"></script>
-		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript" src="landing_page/js/move-top.js"></script>
+		<script type="text/javascript" src="landing_page/js/easing.js"></script>
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){		
@@ -18,7 +18,7 @@
 			});
 		</script>
 		 <!-- Custom Theme files -->
-		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<link href="landing_page/css/style.css" rel='stylesheet' type='text/css' />
    		 <!-- Custom Theme files -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -54,7 +54,7 @@
 				<div class="container">
 					<div class="top-header">
 						<div class="logo">
-							<a href="#"><img src="images/logo.png" title="logo" /></a>
+							<a href="#"><img src="landing_page/images/logo.png" title="logo" /></a>
 						</div>
 					
 						 <nav class="top-nav">
@@ -64,14 +64,14 @@
 								<li class="page-scroll"><a href="#gallery" class="scroll">Gallery</a></li>						
 								<li class="contatct-active" class="page-scroll"><a href="#contact" class="scroll">Contact</a></li>
 							</ul>
-							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+							<a href="#" id="pull"><img src="landing_page/images/nav-icon.png" title="menu" /></a>
 						</nav>
 						<div class="clearfix"> </div>
 					</div>
 				</div>
 			</div>
 			
-			<script src="js/responsiveslides.min.js"></script>
+			<script src="landing_page/js/responsiveslides.min.js"></script>
 			 <script>
 			  
 			    $(function () {
@@ -96,7 +96,7 @@
 			    <div  id="top" class="callbacks_container">
 			      <ul class="rslides" id="slider4">
 			        <li>
-			          <img src="images/slide.jpg" alt="">
+			          <img src="landing_page/images/slide.jpg" alt="">
 			          <div class="caption text-center">
 			          	<div class="slide-text-info">
 			          		<h1>Introducing <span>Umbrella.</span></h1>
@@ -116,7 +116,7 @@
 			          </div>
 			        </li>
 			        <li>
-			          <img src="images/slide.jpg" alt="">
+			          <img src="landing_page/images/slide.jpg" alt="">
 			          <div class="caption text-center">
 			          	<div class="slide-text-info">
 			          		<h1>Introducing <span>Amazing app.</span></h1>
@@ -137,7 +137,7 @@
 			          </div>
 			        </li>
 			        <li>
-			          <img src="images/slide.jpg" alt="">
+			          <img src="landing_page/images/slide.jpg" alt="">
 			          <div class="caption text-center">
 			          	<div class="slide-text-info">
 			          		<h1>Introducing <span>Best app.</span></h1>
@@ -158,7 +158,7 @@
 			          </div>
 			        </li>
 			        <li>
-			          <img src="images/slide.jpg" alt="">
+			          <img src="landing_page/images/slide.jpg" alt="">
 			           <div class="caption text-center">
 			           <div class="slide-text-info">
 			          		<h1>Introducing <span>Amazing app.</span></h1>
@@ -183,7 +183,7 @@
 			    <div class="clearfix"> </div>
 			    
 			    	<div class="divice-demo">
-			    		<img src="images/divice-in-hand.png" title="demo" />
+			    		<img src="landing_page/images/divice-in-hand.png" title="demo" />
 			    	</div>
 			</div>
 			
@@ -230,7 +230,7 @@
 						</div>
 						<div class="col-md-4 features-grid">
 							<div class="big-divice">
-								<img src="images/divice.png" title="features-demo" />
+								<img src="landing_page/images/divice.png" title="features-demo" />
 							</div>
 						</div>
 						<div class="col-md-4 features-grid">
@@ -281,8 +281,8 @@
 						
 						<div class="sreen-gallery-cursual">
 							
-							<link href="css/owl.carousel.css" rel="stylesheet">
-							    <script src="js/owl.carousel.js"></script>
+							<link href="landing_page/css/owl.carousel.css" rel="stylesheet">
+							    <script src="landing_page/js/owl.carousel.js"></script>
 							        <script>
 							    $(document).ready(function() {
 							      $("#owl-demo").owlCarousel({
@@ -296,28 +296,28 @@
 							 <div class="container">
 						       <div id="owl-demo" class="owl-carousel">
 					                <div class="item">
-					                	<img class="lazyOwl" data-src="images/screen.jpg" alt="screen-name">
+					                	<img class="lazyOwl" data-src="landing_page/images/screen.jpg" alt="screen-name">
 					                </div>
 					                <div class="item">
-					                	<img class="lazyOwl" data-src="images/screen.jpg" alt="screen-name">
+					                	<img class="lazyOwl" data-src="landing_page/images/screen.jpg" alt="screen-name">
 					                </div>
 					                <div class="item">
-					                	<img class="lazyOwl" data-src="images/screen.jpg" alt="screen-name">
+					                	<img class="lazyOwl" data-src="landing_page/images/screen.jpg" alt="screen-name">
 					                </div>
 					                <div class="item">
-					                	<img class="lazyOwl" data-src="images/screen.jpg" alt="screen-name">
+					                	<img class="lazyOwl" data-src="landing_page/images/screen.jpg" alt="screen-name">
 					                </div>
 					                <div class="item">
-					                	<img class="lazyOwl" data-src="images/screen.jpg" alt="screen-name">
+					                	<img class="lazyOwl" data-src="landing_page/images/screen.jpg" alt="screen-name">
 					                </div>
 					                <div class="item">
-					                	<img class="lazyOwl" data-src="images/screen.jpg" alt="screen-name">
+					                	<img class="lazyOwl" data-src="landing_page/images/screen.jpg" alt="screen-name">
 					                </div>
 					                <div class="item">
-					                	<img class="lazyOwl" data-src="images/screen.jpg" alt="screen-name">
+					                	<img class="lazyOwl" data-src="landing_page/images/screen.jpg" alt="screen-name">
 					                </div>
 					                <div class="item">
-					                	<img class="lazyOwl" data-src="images/screen.jpg" alt="screen-name">
+					                	<img class="lazyOwl" data-src="landing_page/images/screen.jpg" alt="screen-name">
 					                </div>
 				              </div>
 						</div>
@@ -330,7 +330,7 @@
 				
 					<div class="test-monials text-center">
 						<div class="container">
-							<span><img src="images/icon1.png" title="quit"/></span>
+							<span><img src="landing_page/images/icon1.png" title="quit"/></span>
 						<script>
 							    $(document).ready(function() {
 							      $("#owl-demo1").owlCarousel({
@@ -345,7 +345,7 @@
 					       <div class="item">
 					          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
 					     		<div class="quit-people">
-					     			<img src="images/quit-people.jpg" title="name" />
+					     			<img src="landing_page/images/quit-people.jpg" title="name" />
 					     			<h4><a href="#"> Robert Leonaro</a></h4>
 					     			<span>CEO at CUBEDES</span>
 					     		</div>
@@ -353,7 +353,7 @@
 					        <div class="item">
 					          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
 					     		<div class="quit-people">
-					     			<img src="images/quit-people.jpg" title="name" />
+					     			<img src="landing_page/images/quit-people.jpg" title="name" />
 					     			<h4><a href="#"> Robert Leonaro</a></h4>
 					     			<span>CEO at CUBEDES</span>
 					     		</div>
@@ -361,7 +361,7 @@
 					        <div class="item">
 					          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
 					     		<div class="quit-people">
-					     			<img src="images/quit-people.jpg" title="name" />
+					     			<img src="landing_page/images/quit-people.jpg" title="name" />
 					     			<h4><a href="#"> Robert Leonaro</a></h4>
 					     			<span>CEO at CUBEDES</span>
 					     		</div>
@@ -399,7 +399,7 @@
 					</div>
 					<div class="col-md-2 getintouch-left">
 						<div class="footer-divice">
-							<img src="images/divice-half.png" title="getintouch" />
+							<img src="landing_page/images/divice-half.png" title="getintouch" />
 						</div>
 					</div>	
 				</div>
@@ -411,7 +411,7 @@
 				<div class="container">
 					<div class="footer-grids">
 						<div class="col-md-3 footer-grid about-info">
-							<a href="#"><img src="images/logo.png" title="Umbrella" /></a>
+							<a href="#"><img src="landing_page/images/logo.png" title="Umbrella" /></a>
 							<p>eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 						</div>
 						<div class="col-md-3 footer-grid subscribe">
