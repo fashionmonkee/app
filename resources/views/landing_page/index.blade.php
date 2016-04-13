@@ -371,39 +371,54 @@
 					</div>
 				
 			
-			<div id="contact" class="getintouch">
-				<div class="container">
-					<div class="section-head text-center">
-						<h3><span class="frist"> </span>GET IN TOUCH<span class="second"> </span></h3>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
-					</div>
-					
-					<div class="col-md-9 getintouch-left">
-						<div class="contact-form col-md-10">
-							<h3>Say hello!</h3>
-							<form>
-								<input type="text" placeholder="Name" required />
-								<input type="text"  placeholder="Email" required />
-								<textarea placeholder="Message" required /> </textarea>
-								<input type="submit" value="Send message" />
-							</form>
-						</div>
-						<!-- <ul class="footer-social-icons col-md-2 text-center">
-							<li><a class="f-be" href="#"><span> </span></a></li>
-							<li><a class="f-tw" href="#"><span> </span></a></li>
-							<li><a class="f-db" href="#"><span> </span></a></li>
-							<li><a class="f-ti" href="#"><span> </span></a></li>
-							<li><a class="f-go" href="#"><span> </span></a></li>
-							<div class="clearfix"> </div>
-						</ul> -->
-					</div>
-					<div class="col-md-2 getintouch-left">
-						<div class="footer-divice">
-							<img src="landing_page/images/divice-half.png" title="getintouch" />
-						</div>
-					</div>	
-				</div>
-			</div>
+			  <div id="contact" class="getintouch">
+                <div class="container">
+                    <div class="section-head text-center">
+                        <h3><span class="frist"> </span>GET IN TOUCH<span class="second"> </span></h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
+                    </div>
+                    
+                    <div class="col-md-9 getintouch-left">
+                        <div class="contact-form col-md-10">
+                            <h3>Say hello!</h3>
+                            <form id="myform" method="post" action="home/contact">
+                                <input type="text" placeholder="Name" required id="name" name="name" value =""/>
+                                <input type="text" placeholder="Mobile/Phone" required id="mobile" name="mobile" value =""/>
+                                <input type="text"  placeholder="Email" required  id="email" name="email" value =""/>
+                                <textarea   placeholder="Message" id="message" name="message" value =""></textarea>
+                                <div style="border: 1px solid;width: 50%;padding-left: 35px;margin-bottom: 5px;"><input type="submit" value="Send message" /></div>
+                                <p id="success">Sent Successfully</p>
+                            </form>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        var frm = $('#myform');
+                         $('#success').hide();
+                        frm.submit(function (ev) {
+                        	var postData = $(this).serializeArray();
+                            $.ajax({
+                                type: frm.attr('method'),
+                                url: frm.attr('action'),
+                                data: postData,
+                                success: function (data) {                                	
+                                }
+                            });
+                            $('#myform')[0].reset();
+                            $('#success').show().delay(5000).fadeOut();
+
+                            ev.preventDefault();
+                        });
+                    </script>
+                    <div class="col-md-2 getintouch-left">
+                        <div class="footer-divice">
+                            <img src="landing_page/images/divice-half.png" title="getintouch" />
+                        </div>
+                    </div>    
+                </div>
+            </div>
+
+
+
 
 
 
@@ -413,14 +428,6 @@
 						<div class="col-md-3 footer-grid about-info">
 							<a href="#"><img src="landing_page/images/logo.png" title="Umbrella" /></a>
 							<p>eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						</div>
-						<div class="col-md-3 footer-grid subscribe">
-							<h3>Subscribe </h3>
-							<form>
-								<input type="text" placeholder="" required />
-								<input type="submit" value="" />
-							</form>
-							<p>eusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 						</div>						
 						<div class="clearfix"> </div>
 						<script type="text/javascript">

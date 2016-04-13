@@ -1,5 +1,5 @@
 <?php
- Route::get('/', function()
+ Route::get('/home', function()
   {
         return View::make('landing_page/index');
   });
@@ -15,6 +15,8 @@ Route::get('ratings', 'RatingController@getRatings');
 Route::get('users/{id?}', 'UserController@getUsers');
 Route::get('reset','Auth\PasswordController@getEmail');
 Route::get('password/reset/{token?}','Auth\PasswordController@getReset');
+Route::get('banners', 'BannerController@getBanners');
+
 
 
 
@@ -28,6 +30,8 @@ Route::post('ratings', 'RatingController@postRatings');
 Route::post('reviews', 'ReviewController@postReviews');
 Route::post('shops', 'ShopController@postShops');
 Route::post('password/reset','Auth\PasswordController@postReset');
+
+Route::post('home/contact','contactMailController@sendMail');
 
 
 Route::delete('reviews', 'ReviewController@deleteReviews');

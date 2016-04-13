@@ -9,24 +9,22 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Input;
 
-use App\Areas;
+use App\Banners;
 use Response;
 use DB;
-use Mail;
 
-class AreaController extends Controller
+class BannerController extends Controller
 {
-	 public function getAreas(Request $data,$id = null)
+	 public function getBanners(Request $data,$id = null)
     {
-
     	if($id == null){
     	  if(Input::get('city')){
-    	  	$value = DB::table('areas')->where('city',Input::get('city'))->get();
+    	  	$value = DB::table('banner_images')->where('city',Input::get('city'))->get();
     	  }else{
-    	  	$value = DB::table('areas')->get();
-    	  }    	  
+    	  	$value = DB::table('banner_images')->get();
+    	  } 
     	}else{
-    	   $value = DB::table('areas')->where('id',$id)->first();
+    	   $value = DB::table('banner_images')->where('id',$id)->first();
     	}
         return response()->json($value);
     }

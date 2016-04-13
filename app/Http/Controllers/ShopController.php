@@ -31,6 +31,14 @@ class ShopController extends Controller
                     ->from('address')
                     ->whereIn('area', explode(',',Input::get('areas')));
                     });
+                }
+                if(Input::get('city')){
+                $value = $value->whereIn('address_id', function($query)
+                {
+                    $query->select(('id'))
+                    ->from('address')
+                    ->whereIn('city', explode(',',Input::get('city')));
+                    });
                 }    
                if(Input::get('categories')){ 
                 $value = $value->WhereIn('id',function ($query) 
