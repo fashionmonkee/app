@@ -17,6 +17,8 @@ class Shops extends Model
             'ratings'
      ];
 
+     protected $hidden = ['pivot'];
+
  
     public function address()
     {
